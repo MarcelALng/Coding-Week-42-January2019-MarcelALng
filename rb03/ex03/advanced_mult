@@ -6,6 +6,7 @@ while n <= 10
 		table << n * i
 	end
 	print "la table de #{n} est :"
+	print table
 	puts table.join(" ")
 	n = n+ 1
 end
